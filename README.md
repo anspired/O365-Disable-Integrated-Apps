@@ -21,6 +21,8 @@ Thanks to [Chris Gecks](https://github.com/chrisgecks) for pointing us in the ri
 
 ## References
 
+- https://docs.microsoft.com/en-au/office365/admin/misc/integrated-apps?redirectSourcePath=%252farticle%252f7e453a40-66df-44ab-92a1-96786cb7fb34&view=o365-worldwide#more-info-on-integrated-apps
+
 - https://blog.knowbe4.com/heads-up-new-ransomware-strain-encrypts-cloud-email-real-time-video
 
 - https://www.datto.com/resources/ransomcloud-demo
