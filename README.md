@@ -4,6 +4,8 @@ New ransomware variants, such as the Ransomcloud demo that Kevin Mitnick runs co
 
 This script will disable the ability for end users to grant or consent to access to these third party applications, potentially mitigating the risk of an attack happening.
 
+Thanks to [Chris Gecks](https://github.com/chrisgecks) for pointing us in the right direction for the PowerShell Commands.
+
 ## Prerequisites and caveats
 
 - This script will change the `UsersPermissionToUserConsentToAppEnabled` setting to false for every single tenant you have delegated admin access to. You can exclude tenants or select them using `Out-GridView` if needed - but as is the script will do it for ALL tenants.
@@ -15,3 +17,10 @@ This script will disable the ability for end users to grant or consent to access
 - Ensure that your Execution Policy is correctly set to be able to run scripts.
 
 - It is possible that your clients may need this feature enabled, so confirm with them first as it could potentially break some applications.
+
+
+## References
+
+- https://blog.knowbe4.com/heads-up-new-ransomware-strain-encrypts-cloud-email-real-time-video
+
+- https://www.datto.com/resources/ransomcloud-demo
